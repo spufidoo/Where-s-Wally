@@ -15,7 +15,7 @@ codegrep() {
 
     if [[ -z "$PATTERN" ]]; then
         echo "Usage: codegrep [-e EXT] [-c] PATTERN [DIRECTORY]"
-        echo "Search for file names matching a pattern in a directory."
+        echo "Search for a string in files within a directory."
         echo "  -e EXT   Search for files with the specified extension"
         echo "  -c       Open matching files in VS Code"
         return 1
